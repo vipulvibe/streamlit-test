@@ -8,16 +8,3 @@ st.success("✅ Test successful!")
 name = st.text_input("Enter your name:")
 if name:
     st.write(f"👋 Hello, {name}! The app is working!")
-```
-
-4. **Click:** "Commit changes"
-
----
-
-## Step 3: Create requirements.txt
-
-1. **Click:** "Add file" → "Create new file"
-2. **Filename:** `requirements.txt`
-3. **Paste:**
-```
-streamlit
